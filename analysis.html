@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+
+    <title>
+        Skin Analysis | DERMIQ
+    </title>
+
+    <link rel="stylesheet"
+    href="analysis.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>
+                 🌿 DERMIQ
+            </h1>
+
+            <p>
+                Tell us about your skin.
+                We'll create your personal
+                skincare journey.
+            </p>
+
+            <!-- Skin Type -->
+
+            <div class="section">
+
+                <h2>
+                    What's your skin type?
+                </h2>
+
+                <label>
+                    <input
+                    type="radio"
+                    name="skin"
+                    value="Oily">
+
+                    Oily
+                </label>
+
+                <label>
+                    <input
+                    type="radio"
+                    name="skin"
+                    value="Dry">
+
+                    Dry
+                </label>
+
+                <label>
+                    <input
+                    type="radio"
+                    name="skin"
+                    value="Combination">
+
+                    Combination
+                </label>
+
+                <label>
+                    <input
+                    type="radio"
+                    name="skin"
+                    value="Normal">
+
+                    Normal
+                </label>
+
+                <label>
+                    <input
+                    type="radio"
+                    name="skin"
+                    value="Sensitive">
+
+                    Sensitive
+                </label>
+
+            </div>
+
+            <!-- Concerns -->
+
+            <div class="section">
+
+                <h2>
+                    Select your concerns
+                </h2>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Acne">
+
+                    Acne
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Dark Spots">
+
+                    Dark Spots
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Pigmentation">
+
+                    Pigmentation
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Blackheads">
+
+                    Blackheads
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Whiteheads">
+
+                    Whiteheads
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Large Pores">
+
+                    Large Pores
+                </label>
+
+                <label>
+                    <input
+                    type="checkbox"
+                    value="Dullness">
+
+                    Dullness
+                </label>
+
+            </div>
+
+            <!-- Age -->
+
+            <div class="section">
+
+                <h2>
+                    Your Age
+                </h2>
+
+                <select id="age">
+
+                    <option>
+                        Under 18
+                    </option>
+
+                    <option>
+                        18 - 25
+                    </option>
+
+                    <option>
+                        26 - 35
+                    </option>
+
+                    <option>
+                        35+
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- Budget -->
+
+            
+            <!-- Buttons -->
+
+            <div class="btn-group">
+
+                <button
+                onclick="createRoutine()">
+
+                    ✨ Create New Routine
+
+                </button>
+
+                <button
+                class="back-btn"
+                onclick="window.location.href='index.html'">
+
+                    🏠 Back To Home
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script
+    src="analysis.js">
+    </script>
+
+</body>
+
+</html>

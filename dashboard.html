@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>
+        DERMIQ Dashboard
+    </title>
+
+    <link rel="stylesheet"
+    href="dashboard.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Welcome Card -->
+
+        <div class="card welcome">
+
+            <h1>
+                DERMIQ
+            </h1>
+
+            <h2 id="todayDate">
+                Loading...
+            </h2>
+            <h3 id="streak">
+    🔥 1 Day Streak
+</h3>
+            <p id="journeyDay">
+                Day 1
+            </p>
+
+        </div>
+
+        <!-- Current Routine -->
+
+        <div class="card">
+
+            <h2>
+                🌿 Current Routine
+            </h2>
+
+            <p id="skinType">
+
+            </p>
+
+            <p id="concerns">
+
+            </p>
+
+            
+
+        </div>
+
+        <!-- Morning Routine -->
+
+        <div class="card">
+
+            <h2>
+                🌞 Morning Routine
+            </h2>
+
+            <div
+            id="morningRoutine">
+
+            </div>
+
+        </div>
+
+        <!-- Night Routine -->
+
+        <div class="card">
+
+            <h2>
+                🌙 Night Routine
+            </h2>
+
+            <div
+            id="nightRoutine">
+
+            </div>
+
+        </div>
+
+        <!-- Water Tracker -->
+
+        <div class="card">
+
+            <h2>
+                💧 Water Tracker
+            </h2>
+
+            <h3
+            id="waterCount">
+
+                0 / 8 Glasses
+
+            </h3>
+
+            <button
+            onclick="addWater()">
+
+                ➕ Add Water
+
+            </button>
+
+        </div>
+
+        <!-- Progress -->
+
+        <div class="card">
+
+            <h2>
+                📊 Today's Progress
+            </h2>
+
+            <div
+            class="progress-box">
+
+                <div
+                class="progress-bar"
+                id="progressBar">
+
+                </div>
+
+            </div>
+
+            <p
+            id="progressText">
+
+                0% Completed
+
+            </p>
+
+        </div>
+
+        <!-- Routine Library -->
+
+        <div class="card">
+
+            <h2>
+                📚 My Routines
+            </h2>
+
+            <div
+            id="routineLibrary">
+
+            </div>
+
+        </div>
+
+        <!-- Navigation -->
+
+        <div class="card">
+
+            <div
+            class="btn-group">
+
+                <button
+                onclick="window.location.href='analysis.html'">
+
+                    ➕ Create New Routine
+
+                </button>
+
+                <button
+                class="secondary-btn"
+                onclick="window.location.href='index.html'">
+
+                    🏠 Home
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script
+    src="dashboard.js">
+
+    </script>
+
+</body>
+
+</html>
